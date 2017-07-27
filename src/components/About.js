@@ -15,17 +15,11 @@ class About extends Component {
         <div>
           <h3>About {this.state.name}</h3>
         </div>
-        <div>
+        <div className="info">
           <article>
             <div>Age: {this.state.age}</div>
             <div>Education: {this.state.education}</div>
             <div>About: {this.state.About}</div>
-            {/* <div>Countries visited:</div>
-            <ul>
-              {this.state.country.map((country, index)=>(
-                <li>{country}</li>
-              ))}
-            </ul> */}
           </article>
         </div>
       </div>

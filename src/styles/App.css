@@ -25,21 +25,43 @@
 h1{
   text-shadow: 1.5px 1.5px;
   font-size: 3em;
-  color:#6495ED;
+  color:black;
   font-family: cursive;
+  margin-top: 60px;
 }
 body{
     background-color: #696969;
     z-index: -999;
 }
 
+.nav{
+  padding-top: 30;
+  font-size: "1.2em";
+  font-family: "cursive";
+}
 #root{
   text-align: center;
   height:auto;
   margin: 50px;
   background-color: #E6E6FA;
-  z-index: -500;
+  z-index: 999;
 
+}
+
+.background_img{
+  background-image: url("http://xinature.com/wp-content/uploads/2016/10/sunsets-leaves-evening-blue-nature-clouds-splendor-colorful-pier-town-lake-beauty-sky-sunset-water-lovely-houses-view-beautiful-reflection-peaceful-wallpaper-free-download.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 91.4%;
+  background-position: center;
+  opacity: .3;
+  position: absolute;
+  z-index: 0;
+  top:20%;
+
+}
+.fetch_content{
+  margin-top: 200px;
 }
 nav{
   display: flex;
@@ -48,27 +70,25 @@ nav{
 .repos{
   font-size: .7em;
 }
-/*.background_img{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hogwarts_coat_of_arms_colored_with_shading.svg/1200px-Hogwarts_coat_of_arms_colored_with_shading.svg.png);
-  background-size: cover;
-  height: 500px;
-  width: 500px;
-  background-position: center;
-  opacity: .2;
-  position: absolute;
-  z-index: 1;
-  left: 25%;
-  margin-top: 60px;
-}*/
+.super-crazy-colors{
+  padding: 25px;
+}
 article{
   text-align: left;
   margin-left: 150px;
 }
-.avatar_url{
-
+#fafa{
+  background-color: black;
+  height: 50px;
+  width:50px;
+  text-align: center;
+  z-index: 500;
 }
 footer{
   text-align: center;
   margin-top: 100px;
   padding-bottom: 50px;
+}
+.repos{
+  border: 1px solid grey;
 }
