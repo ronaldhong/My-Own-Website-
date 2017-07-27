@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+h1{
+  text-shadow: 1.5px 1.5px;
+  font-size: 3em;
+  color:#6495ED;
+  font-family: cursive;
+}
+body{
+    background-color: #696969;
+    z-index: -999;
+}
+
+#root{
+  text-align: center;
+  height:auto;
+  margin: 50px;
+  background-color: #E6E6FA;
+  z-index: -500;
+
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+.repos{
+  font-size: .7em;
+}
+/*.background_img{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hogwarts_coat_of_arms_colored_with_shading.svg/1200px-Hogwarts_coat_of_arms_colored_with_shading.svg.png);
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  background-position: center;
+  opacity: .2;
+  position: absolute;
+  z-index: 1;
+  left: 25%;
+  margin-top: 60px;
+}*/
+article{
+  text-align: left;
+  margin-left: 150px;
+}
+.avatar_url{
+
+}
+footer{
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
