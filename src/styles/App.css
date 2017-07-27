@@ -88,10 +88,14 @@ footer{
   text-align: center;
   margin-top: 100px;
   padding-bottom: 50px;
+  font-family: Courier;
 }
 .repos{
   border: 1px solid grey;
 }
 .FontAwesome{
   margin-top: 100px;
+}
+.contact{
+  font-family: Courier;
 }

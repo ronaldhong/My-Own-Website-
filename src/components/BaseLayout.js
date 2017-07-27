@@ -10,7 +10,6 @@ class BaseLayout extends Component {
       "padding-top": 30,
       "font-size": "1.2em",
       "font-family": "cursive"
-
     }
     return(
       <div >
