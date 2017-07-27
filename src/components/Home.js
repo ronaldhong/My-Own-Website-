@@ -14,7 +14,7 @@ class Home extends Component {
   }
   render() {
     return(
-      <div>
+      <div className="about_me">
         <div className="contact">
           <div>{this.state.email}</div>
           <div>{this.state.phone}</div>
@@ -24,8 +24,6 @@ class Home extends Component {
           <a href="https://www.facebook.com/ronaldshunhong"><FontAwesome id="fb-icon" className='super-crazy-colors' name='facebook-square' size='2x' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}/></a>
           <a href="https://www.instagram.com/ron_hong919"><FontAwesome id="instagram-icon" className='super-crazy-colors' name='instagram' size='2x' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}/></a>
           <a href="https://github.com/ronaldhong"><FontAwesome id="github-icon" className='super-crazy-colors' name='github' size='2x' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}/></a>
-        </div>
-        <div className="images">
         </div>
       </div>
 

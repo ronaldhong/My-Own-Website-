@@ -45,7 +45,10 @@ body{
   margin: 50px;
   background-color: #E6E6FA;
   z-index: 999;
+}
 
+.header{
+  text-align: center;
 }
 
 .background_img{
@@ -62,6 +65,23 @@ body{
 }
 .fetch_content{
   margin-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.fetch_title{
+  display: flex;
+}
+.speciality{
+  margin-top: 100px;
+  margin-left: 120px;
+  font-family: impact;
+  font-size: 2em;
+  color: #878184;
+}
+.recent_repo{
+  color: #878184;
+  font-family: impact;
+  font-size: 2em;
 }
 nav{
   display: flex;
@@ -69,7 +89,10 @@ nav{
 }
 .repos{
   font-size: .7em;
+  text-align: left;
+  padding-left: 15px;
 }
+
 .super-crazy-colors{
   padding: 25px;
 }
@@ -99,4 +122,12 @@ footer{
 }
 .contact{
   font-family: Courier;
+}
+.avatar_url{
+  border-radius: 50%;
+  margin-left: 40px;
+  transform: rotate(35deg);
+}
+.about_me{
+  text-align: center;
 }

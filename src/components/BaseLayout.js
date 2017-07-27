@@ -19,7 +19,9 @@ class BaseLayout extends Component {
           <NavLink exact to ="/Portfolio">My Portfolio</NavLink>
           <NavLink exact to ="/about"> About me </NavLink>
         </nav>
-        <h1>Welcome to my Blog!</h1>
+        <div className="header">
+          <h1>Welcome to my Blog!</h1>
+        </div>
         {this.props.children}
         <footer>
           Designed by Ronald S Hong <br/>ReactJS

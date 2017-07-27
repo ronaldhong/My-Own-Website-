@@ -13,7 +13,7 @@ class About extends Component {
     return(
       <div>
         <div>
-          <h3>{this.state.name}</h3>
+          <h2>{this.state.name}</h2>
         </div>
         <div>
           <article>
