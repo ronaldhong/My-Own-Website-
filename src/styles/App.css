@@ -42,27 +42,32 @@ body{
 #root{
   text-align: center;
   height:auto;
-  margin: 50px;
+  margin-left: 60px;
+  width:90%;
   background-color: #E6E6FA;
   z-index: 999;
 }
 
-.header{
+/*.header{
+  font-family: monospace;
   text-align: center;
-}
+  margin-top: 30px;
+}*/
 
 .background_img{
   background-image: url("http://xinature.com/wp-content/uploads/2016/10/sunsets-leaves-evening-blue-nature-clouds-splendor-colorful-pier-town-lake-beauty-sky-sunset-water-lovely-houses-view-beautiful-reflection-peaceful-wallpaper-free-download.jpg");
   background-size: cover;
   height: 300px;
-  width: 91.4%;
+  width: 90%;
   background-position: center;
   opacity: .3;
   position: absolute;
   z-index: 0;
-  top:20%;
-
+  top:10%;
 }
+
+
+
 .fetch_content{
   margin-top: 200px;
   padding-left: 20px;
@@ -100,25 +105,17 @@ article{
   text-align: left;
   margin-left: 150px;
   font-family: "Lucida Console";
+  margin-top: 100px;
 }
-#fafa{
-  background-color: black;
-  height: 50px;
-  width:50px;
-  text-align: center;
-  z-index: 500;
-}
+
 footer{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 130px;
   padding-bottom: 50px;
   font-family: Courier;
 }
 .repos{
   border: 1px solid grey;
-}
-.FontAwesome{
-  margin-top: 100px;
 }
 .contact{
   font-family: Courier;
@@ -129,5 +126,14 @@ footer{
   transform: rotate(35deg);
 }
 .about_me{
+ margin-top: 200px;
+}
+.about{
   text-align: center;
+  width: 100%;
+  margin-top: 18%;
+}
+.about_name{
+  width: 50%;
+  margin-left: 25%;
 }

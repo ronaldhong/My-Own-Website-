@@ -5,7 +5,9 @@ class Fetchdisplay extends Component {
     return (
       <div className="fetch_content">
         <div className="fetch_title">
-          <img className="avatar_url" src={this.props.profile.avatar_url} />
+          <div>
+            <img className="avatar_url" src={this.props.profile.avatar_url} />
+          </div>
           <div>
             <h2 className="speciality">Front End Developer</h2>
           </div>

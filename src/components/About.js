@@ -4,22 +4,40 @@ class About extends Component {
     super(props)
     this.state= {
       name: "Ronald Shun Hong",
-      age: "25",
-      About: "Future Web Developer, currently a student in The Iron Yard learning full stack skills, with an emphasis in front end web development.",
-      education: "The University of Texas at Austin"
+      About: "Currently a student in The Iron Yard learning full stack skills, with an emphasis in front-end web development.",
+      Frondend: "ReactJS (Flux, Redux), Bootstrap, Responsive Design",
+      Backend: "NodeJS (Express), PostgreSQL, Sequelize, NoSQL-Mongoose, RESTful APIs, Third Party APIs (Git,Soundcloud, NASA)"
     }
   }
   render() {
+
+    let about = {
+      "font-family": "Courier New",
+      "text-align": "center"
+    }
     return(
-      <div>
-        <div>
-          <h2>{this.state.name}</h2>
+      <div style={about}>
+        <div className="about">
+          <h2 >{this.state.name}</h2>
+          <p className="about_name">{this.state.About}</p>
         </div>
         <div>
           <article>
-            <div>Age: {this.state.age}</div>
-            <div>Education: {this.state.education}</div>
-            <div>About: {this.state.About}</div>
+            <div>
+              <div>Skills</div>
+              <div>Front-End</div>
+              <ul>
+                <li>{this.state.Frondend}</li>
+              </ul>
+            </div>
+            <div>
+              <div>Back-End</div>
+              <div>
+                <ul>
+                  <li>{this.state.Backend}</li>
+                </ul>
+              </div>
+            </div>
           </article>
         </div>
       </div>
