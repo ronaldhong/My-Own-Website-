@@ -3,7 +3,7 @@ class About extends Component {
   constructor(props){
     super(props)
     this.state= {
-      name: "Ronald",
+      name: "Ronald Shun Hong",
       age: "25",
       About: "Future Web Developer, currently a student in The Iron Yard learning full stack skills, with an emphasis in front end web development.",
       education: "The University of Texas at Austin"
@@ -13,9 +13,9 @@ class About extends Component {
     return(
       <div>
         <div>
-          <h3>About {this.state.name}</h3>
+          <h3>{this.state.name}</h3>
         </div>
-        <div className="info">
+        <div>
           <article>
             <div>Age: {this.state.age}</div>
             <div>Education: {this.state.education}</div>
